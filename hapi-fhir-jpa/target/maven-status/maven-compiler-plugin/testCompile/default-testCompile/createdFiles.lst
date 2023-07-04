@@ -1,0 +1,17 @@
+ca\uhn\fhir\jpa\starter\JpaStarterWebsocketDispatcherConfig.class
+ca\uhn\fhir\jpa\starter\CustomInterceptorTest.class
+ca\uhn\fhir\jpa\starter\ExampleServerDstu3IT.class
+some\custom\pkg1\CustomInterceptorPojo.class
+ca\uhn\fhir\jpa\starter\IServerSupport.class
+ca\uhn\fhir\jpa\starter\SocketImplementation.class
+ca\uhn\fhir\jpa\starter\ExampleServerR5IT.class
+ca\uhn\fhir\jpa\starter\ElasticsearchLastNR4IT$Initializer.class
+ca\uhn\fhir\jpa\starter\CustomBeanTest.class
+ca\uhn\fhir\jpa\starter\ExampleServerR4IT.class
+ca\uhn\fhir\jpa\starter\ExampleServerR4BIT.class
+ca\uhn\fhir\jpa\starter\JpaStarterWebsocketDispatcherConfig$Jetty10WebSocketServletWebServerCustomizer.class
+some\custom\pkg1\CustomBean.class
+ca\uhn\fhir\jpa\starter\ExampleServerDstu2IT.class
+ca\uhn\fhir\jpa\starter\ElasticsearchLastNR4IT.class
+ca\uhn\fhir\jpa\starter\MultitenantServerR4IT.class
+some\custom\pkg1\CustomInterceptorBean.class

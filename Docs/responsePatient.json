@@ -1,0 +1,1914 @@
+{
+  "resourceType": "Bundle",
+  "id": "597910d5-4119-43d5-b692-0d9c5d11a080",
+  "meta": {
+    "lastUpdated": "2023-07-03T16:41:46.369+00:00"
+  },
+  "type": "searchset",
+  "total": 50,
+  "link": [ {
+    "relation": "self",
+    "url": "http://localhost:8080/fhir/Patient?_count=60"
+  } ],
+  "entry": [ {
+    "fullUrl": "http://localhost:8080/fhir/Patient/1",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "1",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:31.050+00:00",
+        "source": "#tZLKpzXOqUKW6wCQ"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "123.456.789-00"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "João da Silva",
+        "family": "Silva",
+        "given": [ "Silva" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(11) 1234-5678",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1980-05-10"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/2",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:40.432+00:00",
+        "source": "#YqT8N8HCcnGLuRxn"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "987.654.321-01"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Maria Souza",
+        "family": "Souza",
+        "given": [ "Souza" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(21) 9876-5432",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1992-08-15"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/5",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "5",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:41.628+00:00",
+        "source": "#gWRgTqVUTyOBf788"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "456.789.123-02"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Pedro Oliveira",
+        "family": "Oliveira",
+        "given": [ "Oliveira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(31) 4567-8901",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1975-12-03"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/6",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "6",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:42.677+00:00",
+        "source": "#bmVzurXjP1kKYqtJ"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "789.123.456-03"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Ana Santos",
+        "family": "Santos",
+        "given": [ "Santos" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(41) 7890-1234",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1988-06-20"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/11",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:43.912+00:00",
+        "source": "#NOq9GgdAGLByVXXW"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "234.567.890-04"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Carlos Costa",
+        "family": "Costa",
+        "given": [ "Costa" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(51) 2345-6789",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1995-09-25"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/12",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "12",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:44.983+00:00",
+        "source": "#GVFiFWsocXdSXpBh"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "678.901.234-05"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Laura Almeida",
+        "family": "Almeida",
+        "given": [ "Almeida" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(61) 6789-0123",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1983-02-08"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/13",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "13",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:46.031+00:00",
+        "source": "#1Do5ddvTCCV33Isk"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "901.234.567-06"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Rafael Ferreira",
+        "family": "Ferreira",
+        "given": [ "Ferreira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(71) 9012-3456",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1990-11-12"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/16",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "16",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:47.165+00:00",
+        "source": "#47oz1Kxsk1BNktZn"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "345.678.901-07"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Camila Gomes",
+        "family": "Gomes",
+        "given": [ "Gomes" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(81) 3456-7890",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1998-04-17"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/17",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "17",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:48.217+00:00",
+        "source": "#psIfw4n9OHir29nG"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "789.012.345-08"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Tiago Martins",
+        "family": "Martins",
+        "given": [ "Martins" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(91) 7890-1234",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1986-07-30"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/18",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "18",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:49.267+00:00",
+        "source": "#pBWG3WlchSLYXcPa"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "012.345.678-09"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Isabela Lima",
+        "family": "Lima",
+        "given": [ "Lima" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(12) 0123-4567",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1994-03-05"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/21",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "21",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:50.422+00:00",
+        "source": "#JDnzeB6OeffqoOrq"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "456.789.012-10"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Lucas Pereira",
+        "family": "Pereira",
+        "given": [ "Pereira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(22) 4567-8901",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1982-09-19"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/22",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "22",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:51.465+00:00",
+        "source": "#VYSz3iZ14NRgbrAk"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "890.123.456-11"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Fernanda Costa",
+        "family": "Costa",
+        "given": [ "Costa" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(32) 8901-2345",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1991-02-01"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/23",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "23",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:52.512+00:00",
+        "source": "#AS6PK1ezl3r8AjIJ"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "234.567.890-12"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Guilherme Rocha",
+        "family": "Rocha",
+        "given": [ "Rocha" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(42) 2345-6789",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1984-06-14"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/24",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "24",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:53.567+00:00",
+        "source": "#lfUWnf2RaFFUckrO"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "678.901.234-13"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Mariana Santos",
+        "family": "Santos",
+        "given": [ "Santos" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(52) 6789-0123",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1993-12-27"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/27",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "27",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:54.707+00:00",
+        "source": "#YzySXCWlomMDiCxw"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "901.234.567-14"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Bruno Oliveira",
+        "family": "Oliveira",
+        "given": [ "Oliveira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(62) 9012-3456",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1981-08-09"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/28",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "28",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:55.762+00:00",
+        "source": "#6zY3Xd5IrB8EtR2K"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "345.678.901-15"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Juliana Almeida",
+        "family": "Almeida",
+        "given": [ "Almeida" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(72) 3456-7890",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1999-01-23"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/29",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "29",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:56.811+00:00",
+        "source": "#bqH40owuhOdQRuGn"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "789.012.345-16"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Ricardo Ferreira",
+        "family": "Ferreira",
+        "given": [ "Ferreira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(82) 7890-1234",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1987-05-06"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/30",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "30",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:57.868+00:00",
+        "source": "#jr27RldX52iOXjaf"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "012.345.678-17"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Carolina Gomes",
+        "family": "Gomes",
+        "given": [ "Gomes" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(92) 0123-4567",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1995-10-21"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/35",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "35",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:39:59.173+00:00",
+        "source": "#obviLGe5Gp6nBWg6"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "456.789.012-18"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Gabriel Martins",
+        "family": "Martins",
+        "given": [ "Martins" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(13) 4567-8901",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1989-04-04"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/36",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "36",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:00.210+00:00",
+        "source": "#BotnUuOCwekYaa5i"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "890.123.456-19"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Vanessa Lima",
+        "family": "Lima",
+        "given": [ "Lima" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(33) 8901-2345",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1997-07-18"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/37",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "37",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:01.248+00:00",
+        "source": "#MnuB5JCx9gO3hIh0"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "234.567.890-20"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "André Pereira",
+        "family": "Pereira",
+        "given": [ "Pereira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(43) 2345-6789",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1985-12-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/38",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "38",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:02.296+00:00",
+        "source": "#1MEXnaNlL7OGsdrf"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "678.901.234-21"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Luiza Costa",
+        "family": "Costa",
+        "given": [ "Costa" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(53) 6789-0123",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1993-03-15"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/39",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "39",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:03.349+00:00",
+        "source": "#2MVj1WwWBPtPqHOf"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "901.234.567-22"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Diego Santos",
+        "family": "Santos",
+        "given": [ "Santos" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(63) 9012-3456",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1980-09-28"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/44",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "44",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:04.528+00:00",
+        "source": "#YUbXICMGBjVJXWzK"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "345.678.901-23"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Ana Clara Almeida",
+        "family": "Almeida",
+        "given": [ "Clara" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(73) 3456-7890",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1998-02-11"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/45",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "45",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:05.576+00:00",
+        "source": "#xCvuAEyNIZD6OQds"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "789.012.345-24"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Marcos Ferreira",
+        "family": "Ferreira",
+        "given": [ "Ferreira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(83) 7890-1234",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1986-06-25"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/46",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "46",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:06.617+00:00",
+        "source": "#N5yzVUSYTDfljtix"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "012.345.678-25"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Larissa Gomes",
+        "family": "Gomes",
+        "given": [ "Gomes" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(93) 0123-4567",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1994-10-08"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/47",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "47",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:07.658+00:00",
+        "source": "#oKFzD6T5CcvVwlGO"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "456.789.012-26"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Vinicius Martins",
+        "family": "Martins",
+        "given": [ "Martins" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(14) 4567-8901",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1982-04-22"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/50",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "50",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:08.788+00:00",
+        "source": "#HzdktNI7r5gBuJPx"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "890.123.456-27"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Amanda Lima",
+        "family": "Lima",
+        "given": [ "Lima" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(34) 8901-2345",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1990-09-05"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/51",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "51",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:09.824+00:00",
+        "source": "#ThzZwKBQpoITAgPJ"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "234.567.890-28"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Rafaela Pereira",
+        "family": "Pereira",
+        "given": [ "Pereira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(44) 2345-6789",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1999-01-18"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/52",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "52",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:10.869+00:00",
+        "source": "#b3T5ntxXOsTOJ5kt"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "678.901.234-29"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Gustavo Oliveira",
+        "family": "Oliveira",
+        "given": [ "Oliveira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(54) 6789-0123",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1987-07-01"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/53",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "53",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:11.910+00:00",
+        "source": "#7juQdQN7eZwnCsu0"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "901.234.567-30"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Sofia Costa",
+        "family": "Costa",
+        "given": [ "Costa" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(64) 9012-3456",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1995-11-14"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/54",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "54",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:12.952+00:00",
+        "source": "#QhIgPFAYYi7P0Pb2"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "345.678.901-31"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Leonardo Santos",
+        "family": "Santos",
+        "given": [ "Santos" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(74) 3456-7890",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1983-03-27"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/59",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "59",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:14.160+00:00",
+        "source": "#PAJWB5Ql96ex9ZDC"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "789.012.345-32"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Beatriz Almeida",
+        "family": "Almeida",
+        "given": [ "Almeida" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(84) 7890-1234",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1991-08-09"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/60",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "60",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:15.201+00:00",
+        "source": "#4bPFsH2SqoDfzSQL"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "012.345.678-33"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Matheus Ferreira",
+        "family": "Ferreira",
+        "given": [ "Ferreira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(94) 0123-4567",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1989-12-23"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/61",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "61",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:16.242+00:00",
+        "source": "#vx7BEZZelp8ASXP7"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "456.789.012-34"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Eduarda Gomes",
+        "family": "Gomes",
+        "given": [ "Gomes" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(15) 4567-8901",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1997-05-05"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/62",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "62",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:17.280+00:00",
+        "source": "#9ydvGf7J1NaBqYw7"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "890.123.456-35"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Rafael Oliveira",
+        "family": "Oliveira",
+        "given": [ "Oliveira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(35) 8901-2345",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1985-09-18"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/65",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "65",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:18.392+00:00",
+        "source": "#I3D8TsZiTvpX90Ed"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "234.567.890-36"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Carolina Lima",
+        "family": "Lima",
+        "given": [ "Lima" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(45) 2345-6789",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1993-02-02"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/66",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "66",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:19.444+00:00",
+        "source": "#vHLoZlqYQsc1F0WI"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "678.901.234-37"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Gabriel Martins",
+        "family": "Martins",
+        "given": [ "Martins" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(55) 6789-0123",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1981-06-15"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/67",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "67",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:20.483+00:00",
+        "source": "#nixZAATGco3uScGP"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "901.234.567-38"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Fernanda Costa",
+        "family": "Costa",
+        "given": [ "Costa" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(65) 9012-3456",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1999-12-28"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/68",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "68",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:21.521+00:00",
+        "source": "#0cxumYK8QAVviBhN"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "345.678.901-39"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Lucas Santos",
+        "family": "Santos",
+        "given": [ "Santos" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(75) 3456-7890",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1988-05-10"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/69",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "69",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:22.565+00:00",
+        "source": "#ljirMXv0eBhPpmD1"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "789.012.345-40"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Luana Almeida",
+        "family": "Almeida",
+        "given": [ "Almeida" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(85) 7890-1234",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1996-09-23"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/72",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "72",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:23.671+00:00",
+        "source": "#Q6IDBIxkm4142fiT"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "012.345.678-41"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Matheus Ferreira",
+        "family": "Ferreira",
+        "given": [ "Ferreira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(95) 0123-4567",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1984-04-06"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/73",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "73",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:24.717+00:00",
+        "source": "#7RY6dh1cJL2Hpawl"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "456.789.012-42"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Giovanna Gomes",
+        "family": "Gomes",
+        "given": [ "Gomes" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(16) 4567-8901",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1992-08-20"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/74",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "74",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:25.761+00:00",
+        "source": "#lbhWMzxzkwWy0uM2"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "890.123.456-43"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Vitor Oliveira",
+        "family": "Oliveira",
+        "given": [ "Oliveira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(36) 8901-2345",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1980-12-03"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/75",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "75",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:26.820+00:00",
+        "source": "#s4B2BUzVkJ5qYQBE"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "234.567.890-44"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Isabella Lima",
+        "family": "Lima",
+        "given": [ "Lima" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(46) 2345-6789",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1988-05-16"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/76",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "76",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:27.865+00:00",
+        "source": "#Gngtubp8F02geHlX"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "678.901.234-45"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Gustavo Martins",
+        "family": "Martins",
+        "given": [ "Martins" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(56) 6789-0123",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1996-09-29"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/77",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "77",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:28.906+00:00",
+        "source": "#c346oi7u5IZeH4gT"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "901.234.567-46"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Mariana Costa",
+        "family": "Costa",
+        "given": [ "Costa" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(66) 9012-3456",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1985-02-12"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/78",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "78",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:29.944+00:00",
+        "source": "#ciPQVYKmqLUky3Jj"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "345.678.901-47"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "João Santos",
+        "family": "Santos",
+        "given": [ "Santos" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(76) 3456-7890",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1993-06-25"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/79",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "79",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:30.980+00:00",
+        "source": "#tjnHPtmSv5GU4l8D"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "789.012.345-48"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Camila Almeida",
+        "family": "Almeida",
+        "given": [ "Almeida" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(86) 7890-1234",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1981-10-08"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://localhost:8080/fhir/Patient/80",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "80",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-07-03T16:40:32.026+00:00",
+        "source": "#P5MVxRmid66Ce2eV"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PPN",
+            "display": "CPF Number"
+          } ]
+        },
+        "system": "https://terminology.hl7.org/CodeSystem-v2-0203",
+        "value": "012.345.678-49"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Pedro Oliveira",
+        "family": "Oliveira",
+        "given": [ "Oliveira" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "(96) 0123-4567",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1990-01-21"
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}
