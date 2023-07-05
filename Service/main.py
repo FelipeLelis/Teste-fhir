@@ -79,7 +79,7 @@ diabetic_condition_code_list = {
     'code_coding': 'http://snomed.info/sct',
     'code_coding_code': '44054006',
     'code_coding_display': 'Diabetes mellitus',
-    'note': 'Histórico de pressão arterial elevada.'
+    'note': 'Paciente diagnosticado com diabetes tipo 2.'
 }
 
 
